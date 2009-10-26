@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- version obtained from http://www.flabell.com/flash/XML-Banner-Rotator-233 on Oct 25, 2009 -->
+<!-- Configuration panel -->
+<banner 
+		width = "" 
+		height = ""
+		startWith = "1" 
+		random = "false"
+		
+		backgroundColor = "0xffffff" 
+		backgroundTransparency = "0"
+		
+		cellWidth = "200"
+		cellHeight = "200"
+		
+		showMinTime = "1.5"
+		showMaxTime = "1.5"
+		
+		blur = "80"
+		netTime = "0.5"
+		alphaNet = "0.8"
+		netColor = "0xffffff"
+		
+		overColor = "0xffffff"
+		normalColor = "0x000000"
+		selectedTextColor = "0xffffff"
+		buttonAlpha = "0.3"
+		captionButtonAlpha = "0.4"
+		
+		controllerVisible = "false"
+		controllerBackgroundVisible = "false"
+		prevNextVisible = "false"
+		controllerDistanceX = "10"
+		controllerDistanceY = "10"
+		controllerHeight = "27"
+		distanceBetweenControllerElements = "10"
+		distanceBetweenThumbs = "6"
+		
+		loaderColor = "0xffffff"
+		
+		captionTransparency = "0.6"
+		captionY = "150"
+		captionX = "150"			
+		captionWidth = "390"
+		buttonText = "read more"
+		btnNormalColor = "0x000000"
+		btnOverColor = "0xffffff"
+		btnOutColor = "0x000000"
+		paddingX = "20"
+		paddingY = "15"
+		
+		btnSpacingW = "50"
+		btnSpacingH = "5"
+		>
+<!-- End panel -->
+
+
+<!--If you want to customize your font use, for example:
+	<font color='#FFffff' size='18px' family='Times, Times New Roman'> your text </font> 
+-->
+	<item>
+		<path>rotate_Ameriprise.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>100</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>
+	
+	<!--<item>
+		<path>rotate_Bluewaterspa.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>-->
+	
+	<item>
+		<path>rotate_Chargrill.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>100</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>
+		
+	<item>
+		<path>rotate_Earlydesign.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>
+		
+	<item>
+		<path>rotate_Gellerdesign.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>	
+	<item>
+		<path>rotate_Haas.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>	
+	<item>
+		<path>rotate_Lundycharters.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>	
+	<item>
+		<path>rotate_Michaellaw.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>	
+	<item>
+		<path>rotate_Allpoints.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>
+
+</banner>

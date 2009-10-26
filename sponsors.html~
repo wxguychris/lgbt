@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>LGBT Center of Raleigh - Home</title>
+<title>LGBT Center of Raleigh - Acknowledgments</title>
 <style type="text/css">
 <!--
 body {
@@ -48,55 +48,6 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
-
-<script type="text/javascript" src="js/swfobject.js"></script>
-		
-<script type="text/javascript">
-	
-	// JAVASCRIPT VARS
-	// cache buster
-	var cacheBuster = "?t=" + Date.parse(new Date());
-	// stage dimensions		
-	var stageW = "167";//"100%";
-	var stageH = "117";//"100%";
-	
-	
-	// ATTRIBUTES
-	var attributes = {};
-	attributes.id = 'FlabellComponent';
-	attributes.name = 'FlabellComponent';
-
-	// PARAMS
-	var params = {};
-	params.bgcolor = "#ffffff";
-	params.menu = "false";
-	params.scale = 'noScale';
-	params.wmode = "opaque";
-	params.allowfullscreen = "true";
-	params.allowScriptAccess = "always";			
-	
-	
-	/* FLASH VARS */
-	var flashvars = {};
-	
-	/// if commented / delete these lines, the component will take the stage dimensions defined 
-	/// above in "JAVASCRIPT SECTIONS" section or those defined in the settings xml
-	flashvars.componentWidth = stageW;
-	flashvars.componentHeight = stageH;
-	
-	/// path to the content folder(where the xml files, images or video are nested)
-	/// if you want to use absolute paths(like "http://domain.com/images/....") then leave it empty("")			
-	flashvars.pathToFiles = "images/sponsors/";
-	
-	// path to content XML
-	flashvars.contentXMLPath = "sponsors.xml";
-	
-	
-	/** EMBED THE SWF**/
-	swfobject.embedSWF("preview.swf"+cacheBuster, attributes.id, stageW, stageH, "9.0.124", "js/expressInstall.swf", flashvars, params, attributes);
-	
-</script>
-
 </head>
 
 <body onload="MM_preloadImages('images/nav_calendar_over.gif','images/nav_community_over.gif','images/nav_photos_over.gif','images/nav_ack_over.gif','images/nav_contact_over.gif','images/join_email_list_over.gif','images/nav_vol_over.gif','images/nav_espanol_over.gif','images/nav_sponsors_over.gif','images/facebook_over.jpg','images/nav_contribute_over.gif')">
@@ -122,7 +73,7 @@ function MM_swapImage() { //v3.0
       <tr>
         <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr valign="top">
-            <td width="200" rowspan="2" class="nav"><!-- #BeginLibraryItem "/Library/navigation.lbi" -->
+            <td width="200" class="nav"><!-- #BeginLibraryItem "/Library/navigation.lbi" -->
 <script type="text/javascript">
 <!--
 function MM_swapImgRestore() { //v3.0
@@ -334,105 +285,70 @@ function MM_swapImage() { //v3.0
               </tr>
             </table>
 <!-- #EndLibraryItem --></td>
-            <td width="600"><table height="100%" border="0" cellpadding="0" cellspacing="0">
+            <td width="1" background="images/dot_vert.gif"><img src="images/shim.gif" width="1" height="1" /></td>
+            <td width="599"><table border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td><img src="images/home_image.jpg" width="600" height="290" /></td>
+                <td width="30" height="30"><img src="images/shim.gif" width="30" height="30" /></td>
+                <td height="30"><img src="images/shim.gif" width="30" height="30" /></td>
+                <td width="30" height="30"><img src="images/shim.gif" width="30" height="30" /></td>
               </tr>
               <tr>
-                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td height="5"><img src="images/bar_yellow.gif" width="200" height="5" /></td>
-                    <td height="5"><img src="images/bar_violet.gif" width="200" height="5" /></td>
-                    <td height="5"><img src="images/bar_blue.gif" width="200" height="5" /></td>
-                  </tr>
-                </table></td>
-              </tr>
-
-            </table></td>
-          </tr>
-          <tr valign="top">
-            <td align="center" valign="middle"><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
-              <tr valign="top">
-                <td width="1" background="images/dot_vert.gif"><span class="style2"><img src="images/shim.gif" width="1" height="1" /></span></td>
-                <td align="center"><table border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                  </tr>
-
+                <td width="30"><img src="images/shim.gif" width="30" height="30" /></td>
+                <td><p class="bluebold">Sponsors</p>
+                  <table border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                      <td align="center"><img src="images/home_oursponsors.gif" width="198" height="11" /></td>
-                    </tr>
-                    <tr>
-                      <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                    </tr>
-                    <tr>
-                      <td align="center"><!-- this div will be overwritten by SWF object -->		
-						<div id="FlabellComponent">
-							<p>In order to view this object you need Flash Player 9+ support!</p>
-							<a href="http://www.adobe.com/go/getflashplayer">
-								<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
-							</a>
-						</div>
-					  <!-- old sponsors image rotator
-					  <a href="sponsors.html"><img src="images/sponsors/index_sponsors.gif" width="167" height="117" border="0" /></a>--></td>
-                    </tr>
-                    <tr>
-                      <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                    </tr>
-                </table></td>
-                <td width="1" background="images/dot_vert.gif"><span class="style2"><img src="images/shim.gif" width="1" height="1" /></span></td>
-                <td align="center"><table border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                  </tr>
-
-                    <tr>
-                      <td align="center"><img src="images/home_latestnews.gif" width="199" height="11" /></td>
-                    </tr>
-                    <tr>
-                      <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                    </tr>
-                    <tr>
-                      <td align="center"><table border="0" cellspacing="0" cellpadding="0">
-
-                        <tr>
-                          <td width="10"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                          <td><p><span class="bluebold">10/17/09</span><br />    
-                              <span class="bodysmall">RALEIGH, NC<br />
-                              &quot;Coming Out&quot; Party at Moore Square, 5PM to 9PM
-                              &hellip; <a href="about_news.html">read more</a></span> </p>                            </td>
-                          <td width="10"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                        </tr>
-                        <tr>
-                          <td width="10" height="10"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                          <td height="10"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                          <td width="10" height="10"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                        </tr>
+                      <td><table width="100%" align="left" cellpadding="0"  cellspacing="0">
+                        <tr valign="middle">
+                          <td><a href="http://www.ameriprise.com" target="_blank"><img src="images/sponsors/logo_Ameriprise.gif" width="142" height="54" border="0" /></a></td>
+                          <td width="10"><img src="images/shim.gif" width="10" height="10" /></td>
+                          <td><a href="http://www.bluewaterspa.com" target="_blank"><img src="images/sponsors/logo_BlueWaterSpa.gif" width="141" height="30" border="0" /></a></td>
+                          <td width="10"><img src="images/shim.gif" width="10" height="10" /></td>
+                          <td><img src="images/sponsors/logo_CharGrill.gif" width="142" height="57" /></td>
+                          <td><img src="images/shim.gif" width="10" height="10" /></td>
+                          <td><a href="http://www.earlydesign.com" target="_blank"><img src="images/sponsors/logo_edg.gif" width="68" height="117" border="0" /></a></td>
+                          </tr>
                       </table></td>
                     </tr>
-                </table></td>
-                <td width="1" background="images/dot_vert.gif"><span class="style2"><img src="images/shim.gif" width="1" height="1" /></span></td>
-                <td align="center"><table border="0" cellspacing="0" cellpadding="0">
-                  <tr>
-                    <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                  </tr>
-
                     <tr>
-                      <td align="center"><img src="images/home_eventscalendar.gif" width="200" height="11" /></td>
+                      <td height="15"><img src="images/shim.gif" width="15" height="15" /></td>
                     </tr>
                     <tr>
-                      <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
+                      <td><table width="100%" align="left" cellpadding="0"  cellspacing="0">
+                          <tr valign="middle">
+                            <td><a href="http://www.gellerdesignservices.com" target="_blank"><img src="images/sponsors/logo_GDS.gif" width="133" height="74" border="0" /></a></td>
+                            <td width="10"><img src="images/shim.gif" width="10" height="10" /></td>
+                            <td><a href="http://www.carolinafamilylaw.com" target="_blank"><img src="images/sponsors/logo_HaasMcNeil.gif" width="147" height="73" border="0" /></a></td>
+                            <td width="10"><img src="images/shim.gif" width="10" height="10" /></td>
+                            <td><a href="http://www.lundycharters.com" target="_blank"><img src="images/sponsors/logo_Lundy.gif" width="120" height="100" border="0" /></a></td>
+                          </tr>
+                      </table></td>
                     </tr>
                     <tr>
-                      <td align="center"><a href="calendar.html"><img src="images/calendar_thumb.jpg" width="167" height="117" border="0" /></a></td>
+                      <td height="15"><img src="images/shim.gif" width="15" height="15" /></td>
                     </tr>
                     <tr>
-                      <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
+                      <td><table width="100%" align="left" cellpadding="0"  cellspacing="0">
+                        <tr valign="middle">
+                          <td><a href="http://www.michaellawmd.com" target="_blank"><img src="images/sponsors/logo_MichaelLaw.gif" width="150" height="41" border="0" /></a></td>
+                          <td width="10"><img src="images/shim.gif" width="10" height="10" /></td>
+                          <td>&nbsp;</td>
+                          <td width="10"><img src="images/shim.gif" width="10" height="10" /></td>
+                          <td>&nbsp;</td>
+                          </tr>
+                      </table></td>
                     </tr>
-                </table></td>
+                  </table>                  
+                  <p class="body">&nbsp;</p></td>
+                <td width="30"><img src="images/shim.gif" width="30" height="30" /></td>
+              </tr>
+              <tr>
+                <td width="30" height="30"><img src="images/shim.gif" width="30" height="30" /></td>
+                <td height="30"><img src="images/shim.gif" width="30" height="30" /></td>
+                <td width="30" height="30"><img src="images/shim.gif" width="30" height="30" /></td>
               </tr>
             </table></td>
           </tr>
+          
         </table></td>
       </tr>
       <tr>
