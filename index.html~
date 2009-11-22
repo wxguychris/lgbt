@@ -48,9 +48,58 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
+
+<script type="text/javascript" src="js/swfobject.js"></script>
+		
+<script type="text/javascript">
+	
+	// JAVASCRIPT VARS
+	// cache buster
+	var cacheBuster = "?t=" + Date.parse(new Date());
+	// stage dimensions		
+	var stageW = "167";//"100%";
+	var stageH = "117";//"100%";
+	
+	
+	// ATTRIBUTES
+	var attributes = {};
+	attributes.id = 'FlabellComponent';
+	attributes.name = 'FlabellComponent';
+
+	// PARAMS
+	var params = {};
+	params.bgcolor = "#ffffff";
+	params.menu = "false";
+	params.scale = 'noScale';
+	params.wmode = "opaque";
+	params.allowfullscreen = "true";
+	params.allowScriptAccess = "always";			
+	
+	
+	/* FLASH VARS */
+	var flashvars = {};
+	
+	/// if commented / delete these lines, the component will take the stage dimensions defined 
+	/// above in "JAVASCRIPT SECTIONS" section or those defined in the settings xml
+	flashvars.componentWidth = stageW;
+	flashvars.componentHeight = stageH;
+	
+	/// path to the content folder(where the xml files, images or video are nested)
+	/// if you want to use absolute paths(like "http://domain.com/images/....") then leave it empty("")			
+	flashvars.pathToFiles = "images/sponsors/";
+	
+	// path to content XML
+	flashvars.contentXMLPath = "sponsors.xml";
+	
+	
+	/** EMBED THE SWF**/
+	swfobject.embedSWF("preview.swf"+cacheBuster, attributes.id, stageW, stageH, "9.0.124", "js/expressInstall.swf", flashvars, params, attributes);
+	
+</script>
+
 </head>
 
-<body onload="MM_preloadImages('images/nav_calendar_over.gif','images/nav_community_over.gif','images/nav_photos_over.gif','images/nav_ack_over.gif','images/nav_contact_over.gif','images/join_email_list_over.gif','images/nav_vol_over.gif','images/nav_espanol_over.gif','images/nav_sponsors_over.gif','images/facebook_over.jpg','images/nav_contribute_over.gif')">
+<body onload="MM_preloadImages('images/nav_calendar_over.gif','images/nav_community_over.gif','images/nav_photos_over.gif','images/nav_ack_over.gif','images/nav_contact_over.gif','images/join_email_list_over.gif','images/nav_vol_over.gif','images/nav_espanol_over.gif','images/nav_sponsors_over.gif','images/facebook_over.jpg','images/nav_contribute_over.gif','images/nav_founders_over.gif','Library/images/nav_contribute_over.gif')">
 <table width="820" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td width="10" height="10" background="images/shad_tl.jpg"><img src="images/shim.gif" width="10" height="10" /></td>
@@ -74,7 +123,7 @@ function MM_swapImage() { //v3.0
         <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr valign="top">
             <td width="200" rowspan="2" class="nav"><!-- #BeginLibraryItem "/Library/navigation.lbi" -->
-<script type="text/javascript">
+<script type="text/JavaScript">
 <!--
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -100,7 +149,7 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
-<body onLoad="MM_preloadImages('../images/join_email_list_over.gif','../images/facebook_over.jpg','../images/nav_contribute_over.gif')"><table border="0" cellspacing="0" cellpadding="0">
+<body onLoad="MM_preloadImages('../images/join_email_list_over.gif','../images/facebook_over.jpg')"><table border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td><a href="index.html"><img src="images/lgbt_logo.gif" width="200" height="109" border="0" /></a></td>
               </tr>
@@ -134,21 +183,50 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
-                <td><a href="contribute.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image47','','images/nav_contribute_over.gif',1)"><img src="images/nav_contribute.gif" alt="Contribute" name="Image47" width="200" height="9" border="0" id="Image47" /></a></td>
+
+                <td><a href="contribute.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image47','','images/nav_contribute_over.gif',1)"><img src="http://www.lgbtcenterofraleigh.com/images/nav_contribute.gif" alt="Contribute" name="Image47" id="Image47" border="0" width="200" height="9"></a></td>
+              </tr>
+              <tr>
+                <td><table align="center" border="0" cellpadding="0" cellspacing="0" width="150">
+                    <tbody><tr>
+                      <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8"></span></td>
+                    </tr>
+                    <tr>
+
+                      <td background="images/dot_horiz.gif" height="1"><span class="style2"><img src="images/shim.gif" width="150" height="1"></span></td>
+                    </tr>
+                    <tr>
+                      <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8"></span></td>
+                    </tr>
+                </tbody></table></td>
+              </tr>
+
+              <!--<tr>
+                <td><img src="../images/nav_contribute.gif" width="200" height="9" /></td>
+              </tr>
+              <tr>
+                <td><table border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="style2"><img src="../images/shim.gif" width="50" height="10" /></td>
+                    <td class="style2"><p class="nav"><a href="../cont_corp.html" class="nav">Corporate Sponsors<br />
+                    </a><a href="../cont_ind.html" class="nav">Individual Sponsors<br />
+                    </a><a href="../cont_vol.html" class="nav"></a><a href="../cont_don.html" class="nav">Donations</a></p>                        </td>
+                  </tr>
+                </table></td>
               </tr>
               <tr>
                 <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
-                      <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                      <td height="8"><span class="style2"><img src="../images/shim.gif" width="50" height="8" /></span></td>
                     </tr>
                     <tr>
-                      <td height="1" background="images/dot_horiz.gif"><span class="style2"><img src="images/shim.gif" width="150" height="1" /></span></td>
+                      <td height="1" background="../images/dot_horiz.gif"><span class="style2"><img src="../images/shim.gif" width="150" height="1" /></span></td>
                     </tr>
                     <tr>
-                      <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                      <td height="8"><span class="style2"><img src="../images/shim.gif" width="50" height="8" /></span></td>
                     </tr>
                 </table></td>
-              </tr>
+              </tr>-->
               <tr>
                 <td><a href="volunteer.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image84','','images/nav_vol_over.gif',1)"><img src="images/nav_vol.gif" alt="Volunteer Opportunities" name="Image84" width="200" height="11" border="0" id="Image84" /></a></td>
               </tr>
@@ -229,6 +307,22 @@ function MM_swapImage() { //v3.0
                   </tr>
                 </table></td>
               </tr>
+              <!--<tr>
+                <td><a href="../founders.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image49','','../images/nav_founders_over.gif',1)"><img src="../images/nav_founders.gif" alt="Founders" name="Image49.1" width="200" height="9" border="0" id="Image49.1" /></a></td>
+              </tr>
+              <tr>
+                <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="8"><span class="style2"><img src="../images/shim.gif" width="50" height="8" /></span></td>
+                    </tr>
+                    <tr>
+                      <td height="1" background="../images/dot_horiz.gif"><span class="style2"><img src="../images/shim.gif" width="150" height="1" /></span></td>
+                    </tr>
+                    <tr>
+                      <td height="8"><span class="style2"><img src="../images/shim.gif" width="50" height="8" /></span></td>
+                    </tr>
+                </table></td>
+              </tr>-->
               <tr>
                 <td><a href="contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image49','','images/nav_contact_over.gif',1)"><img src="images/nav_contact.gif" alt="Contact Us" name="Image49" width="200" height="9" border="0" id="Image49" /></a></td>
               </tr>
@@ -245,6 +339,7 @@ function MM_swapImage() { //v3.0
                     </tr>
                 </table></td>
               </tr>
+              
               <tr>
                 <td><a href="spanish/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image85','','images/nav_espanol_over.gif',1)"><img src="images/nav_espanol.gif" alt="View Spanish version of this site." name="Image85" width="200" height="12" border="0" id="Image85" /></a></td>
               </tr>
@@ -278,7 +373,7 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
-                <td><a href="http://www.facebook.com/pages/lgbt-Center-of-Raleigh/34335003862?ref=search&amp;sid=1382332332.3158455808..1" target="_blank" onmouseover="MM_swapImage('Image46','','images/facebook_over.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="images/facebook.jpg" alt="Join Us On Facebook" name="Image46" width="200" height="20" border="0" id="Image46" /></a></td>
+                <td><a href="http://www.facebook.com/pages/lgbt-Center-of-Raleigh/34335003862?ref=search&sid=1382332332.3158455808..1" target="_blank" onMouseOver="MM_swapImage('Image46','','images/facebook_over.jpg',1)" onMouseOut="MM_swapImgRestore()"><img src="images/facebook.jpg" alt="Join Us On Facebook" name="Image46" width="200" height="20" border="0"></a></td>
               </tr>
               <tr>
                 <td height="10"><span class="style2"><img src="images/shim.gif" width="50" height="10" /></span></td>
@@ -317,7 +412,15 @@ function MM_swapImage() { //v3.0
                       <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
                     </tr>
                     <tr>
-                      <td align="center"><a href="sponsors.html"><img src="images/sponsors/index_sponsors.gif" width="167" height="117" border="0" /></a></td>
+                      <td align="center"><!-- this div will be overwritten by SWF object -->		
+						<div id="FlabellComponent">
+							<p>In order to view this object you need Flash Player 9+ support!</p>
+							<a href="http://www.adobe.com/go/getflashplayer">
+								<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player"/>
+							</a>
+						</div>
+					  <!-- old sponsors image rotator
+					  <a href="sponsors.html"><img src="images/sponsors/index_sponsors.gif" width="167" height="117" border="0" /></a>--></td>
                     </tr>
                     <tr>
                       <td height="10" align="center"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
