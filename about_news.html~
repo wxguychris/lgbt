@@ -377,10 +377,11 @@ function MM_swapImage() { //v3.0
 				  <p class="body">The LGBT Center of Raleigh is holding a Holiday Social Fundraising Event on Friday, December 11th 2009.
 					It will be hosted by Tantra, Raleigh's new LGBT nightclub. Tantra is located at 310 S. West Street (<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=310+s+west+street+raleigh+nc&sll=35.786287,-78.674961&sspn=0.009852,0.019398&ie=UTF8&hq=&hnear=310+S+West+St,+Raleigh,+Wake,+North+Carolina+27603&ll=35.777505,-78.646424&spn=0.009853,0.019398&t=h&z=16&iwloc=A" target="_blank">map</a>).
 					Admission is only $10 and proceeds benefit the LGBT Center of Raleigh.<br/><br/></p>
+				
 				<p class="bluebold">Archived News</p>
-				<p class="bodybold"><a href="#TGMC925">Triangle Gay Men's Chorus - Sept 25, 2009</a></p>
-				<p class="bodybold"><a href="#MooreSq">Coming Out Party at Moore Square - Oct 17, 2009</a></p>
-				<p class="bodybold"><a href="#CrapeMyr">Crape Myrtle Festival 2009</a></p>
+				<p class="bodybold"><a href="#TGMC925">Triangle Gay Men's Chorus - Sept 25, 2009</a><br/>
+								    <a href="#MooreSq">Coming Out Party at Moore Square - Oct 17, 2009</a></p>
+			
                   <p class="bodybold" id="TGMC925">Triangle Gay Men's Chorus - Friday, September 25th 2009 </p>
                   <p class="body">The Triangle Gay Men's Chorus presents &quot;Threads of Hope&quot;, a concert honoring North Carolina GLBT Pride,&nbsp; with Special Guests the Gay Men's Chorus of Charlotte. <br />
                     A portion of the proceeds from this concert will benefit the Alliance of AIDS Services- Carolina (<a href="http://www.aas-c.org/">www.aas-c.org</a>). </p>
@@ -398,28 +399,8 @@ function MM_swapImage() { //v3.0
                     <p class="body">We hope to see you there at this historic and ground-breaking event. Be a part of history.</p>
                     <p class="body">If you are interested in being an individual or corporate sponsor of this event, please contact Bobby Hilburn at <a href="mailto:bobby.l.hilburn@ampf.com">bobby.l.hilburn@ampf.com</a> or 910-625-8748.</p>
                     </blockquote>
-                  <p class="body"><span class="bodybold" id="CrapeMyr">Crape Myrtle Festival 2009</span> </p>
-                  <p class="body">
-                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="320" height="240" id="FLVPlayer">
-                          <param name="movie" value="FLVPlayer_Progressive.swf" />
-                          <param name="salign" value="lt" />
-                          <param name="quality" value="high" />
-                          <param name="scale" value="noscale" />
-                          <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=media/CMF09&autoPlay=true&autoRewind=true" />
-                          <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=media/CMF09&autoPlay=true&autoRewind=true" quality="high" scale="noscale" width="320" height="240" name="FLVPlayer" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />                    
-                      </object>
-                  </p>
-                  <p class="bodybold">NC Pride 2008</p>
-                  <p class="bodybold">
-                    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="320" height="240" id="FLVPlayer1">
-                      <param name="movie" value="FLVPlayer_Progressive.swf" />
-                      <param name="salign" value="lt" />
-                      <param name="quality" value="high" />
-                      <param name="scale" value="noscale" />
-                      <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=media/NCPRIDE08&autoPlay=true&autoRewind=true" />
-                      <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=media/NCPRIDE08&autoPlay=true&autoRewind=true" quality="high" scale="noscale" width="320" height="240" name="FLVPlayer1" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />                    
-</object>
-                  </p></td>
+                 
+                  </td>
                 <td width="60"><img src="images/shim.gif" width="30" height="30" /></td>
               </tr>
               <tr>
