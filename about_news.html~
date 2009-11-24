@@ -378,10 +378,7 @@ function MM_swapImage() { //v3.0
 					(<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=410+N+Boylan+Ave+Raleigh+NC&sll=35.775215,-78.651381&sspn=0.006633,0.01929&ie=UTF8&hq=&hnear=410+N+Boylan+Ave,+Raleigh,+Wake,+North+Carolina+27603&t=h&z=16" target="_blank">map</a>).
 					</p>
 				  <p class="bodybold" id="HolidayFundraiser">Holiday Social Fundraising Event - Friday, December 11th 2009</p>
-				  <p class="body">The LGBT Center of Raleigh is holding a Holiday Social Fundraising Event on Friday, December 11th 2009.
-					It will be hosted by Tantra, Raleigh's new LGBT nightclub. Tantra is located at 310 S. West Street (<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=310+s+west+street+raleigh+nc&sll=35.786287,-78.674961&sspn=0.009852,0.019398&ie=UTF8&hq=&hnear=310+S+West+St,+Raleigh,+Wake,+North+Carolina+27603&ll=35.777505,-78.646424&spn=0.009853,0.019398&t=h&z=16&iwloc=A" target="_blank">map</a>).
-					Admission is only $10 and proceeds benefit the LGBT Center of Raleigh. (<a href="images/dec11_fundraiser.jpg">click here</a> for a flyer with information)<br/><br/></p>
-					
+				  <p class="body"><img src="images/dec11_fundraiser_resized.jpg" /><br/><br/></p>
 				<p class="bluebold">Archived News</p>
 				<p class="bodybold"><a href="#TGMC925">Triangle Gay Men's Chorus - Sept 25, 2009</a><br/>
 								    <a href="#MooreSq">Coming Out Party at Moore Square - Oct 17, 2009</a></p>
