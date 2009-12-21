@@ -50,7 +50,7 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onload="MM_preloadImages('images/nav_calendar_over.gif','images/nav_community_over.gif','images/nav_photos_over.gif','images/nav_ack_over.gif','images/nav_contact_over.gif','images/join_email_list_over.gif','images/nav_vol_over.gif','images/nav_espanol_over.gif','images/nav_sponsors_over.gif','images/facebook_over.jpg','images/nav_contribute_over.gif')">
+<body onload="MM_preloadImages('images/nav_calendar_over.gif','images/nav_community_over.gif','images/nav_photos_over.gif','images/nav_ack_over.gif','images/nav_contact_over.gif','images/join_email_list_over.gif','images/nav_vol_over.gif','images/nav_espanol_over.gif','images/nav_sponsors_over.gif','images/facebook_over.jpg','images/nav_contribute_over.gif','images/nav_founders_over.gif','Library/images/nav_contribute_over.gif','images/nav_partners_over.gif','images/facebook_over.gif')">
 <table width="820" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td width="10" height="10" background="images/shad_tl.jpg"><img src="images/shim.gif" width="10" height="10" /></td>
@@ -74,7 +74,7 @@ function MM_swapImage() { //v3.0
         <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr valign="top">
             <td width="200" class="nav"><!-- #BeginLibraryItem "/Library/navigation.lbi" -->
-<script type="text/javascript">
+<script type="text/JavaScript">
 <!--
 function MM_swapImgRestore() { //v3.0
   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
@@ -100,7 +100,7 @@ function MM_swapImage() { //v3.0
 }
 //-->
 </script>
-<body onLoad="MM_preloadImages('../images/join_email_list_over.gif','../images/facebook_over.jpg','../images/nav_contribute_over.gif')"><table border="0" cellspacing="0" cellpadding="0">
+<body onLoad="MM_preloadImages('../images/join_email_list_over.gif','../images/facebook_over.jpg')"><table border="0" cellspacing="0" cellpadding="0">
               <tr>
                 <td><a href="index.html"><img src="images/lgbt_logo.gif" width="200" height="109" border="0" /></a></td>
               </tr>
@@ -115,6 +115,7 @@ function MM_swapImage() { //v3.0
                   <tr>
                     <td class="style2"><img src="images/shim.gif" width="50" height="10" /></td>
                     <td class="style2"><p class="nav"><a href="about_mission.html" class="nav">Our Mission<br />
+                    </a><a href="about_vision.html" class="nav">Our Vision<br />
                     </a><a href="about_board.html" class="nav">Board Members<br />
                     </a><a href="about_news.html" class="nav">News</a></p>                      </td>
                   </tr>
@@ -134,23 +135,52 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
-                <td><a href="contribute.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image47','','images/nav_contribute_over.gif',1)"><img src="images/nav_contribute.gif" alt="Contribute" name="Image47" width="200" height="9" border="0" id="Image47" /></a></td>
+
+                <td><a href="contribute.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image47','','images/nav_contribute_over.gif',1)"><img src="images/nav_contribute.gif" alt="Contribute" name="Image47" id="Image47" border="0" width="200" height="9"></a></td>
+              </tr>
+              <tr>
+                <td><table align="center" border="0" cellpadding="0" cellspacing="0" width="150">
+                    <tbody><tr>
+                      <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8"></span></td>
+                    </tr>
+                    <tr>
+
+                      <td background="images/dot_horiz.gif" height="1"><span class="style2"><img src="images/shim.gif" width="150" height="1"></span></td>
+                    </tr>
+                    <tr>
+                      <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8"></span></td>
+                    </tr>
+                </tbody></table></td>
+              </tr>
+
+              <!--<tr>
+                <td><img src="../images/nav_contribute.gif" width="200" height="9" /></td>
+              </tr>
+              <tr>
+                <td><table border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td class="style2"><img src="../images/shim.gif" width="50" height="10" /></td>
+                    <td class="style2"><p class="nav"><a href="../cont_corp.html" class="nav">Corporate Sponsors<br />
+                    </a><a href="../cont_ind.html" class="nav">Individual Sponsors<br />
+                    </a><a href="../cont_vol.html" class="nav"></a><a href="../cont_don.html" class="nav">Donations</a></p>                        </td>
+                  </tr>
+                </table></td>
               </tr>
               <tr>
                 <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
-                      <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                      <td height="8"><span class="style2"><img src="../images/shim.gif" width="50" height="8" /></span></td>
                     </tr>
                     <tr>
-                      <td height="1" background="images/dot_horiz.gif"><span class="style2"><img src="images/shim.gif" width="150" height="1" /></span></td>
+                      <td height="1" background="../images/dot_horiz.gif"><span class="style2"><img src="../images/shim.gif" width="150" height="1" /></span></td>
                     </tr>
                     <tr>
-                      <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                      <td height="8"><span class="style2"><img src="../images/shim.gif" width="50" height="8" /></span></td>
                     </tr>
                 </table></td>
-              </tr>
+              </tr>-->
               <tr>
-                <td><a href="volunteer.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image84','','images/nav_vol_over.gif',1)"><img src="images/nav_vol.gif" alt="Volunteer Opportunities" name="Image84" width="200" height="11" border="0" id="Image84" /></a></td>
+                <td><a href="volunteer.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image84','','images/nav_vol_over.gif',1)"><img src="images/nav_vol.gif" alt="Volunteer Opportunities" name="Image84" width="200" height="9" border="0" id="Image84" /></a></td>
               </tr>
               <tr>
                 <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -214,6 +244,22 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
+                <td><a href="founders.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image421','','images/nav_founders_over.gif',1)"><img src="images/nav_founders.gif" alt="Founders" name="Image421" width="200" height="9" border="0" id="Image421" /></a></td>
+              </tr>
+              <tr>
+                <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="1" background="images/dot_horiz.gif"><span class="style2"><img src="images/shim.gif" width="150" height="1" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
                 <td><a href="sponsors.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image45','','images/nav_sponsors_over.gif',1)"><img src="images/nav_sponsors.gif" alt="Sponsors" name="Image45" width="200" height="9" border="0" id="Image45" /></a></td>
               </tr>
               <tr>
@@ -230,6 +276,38 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
+                <td><a href="partners.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image42','','images/nav_partners_over.gif',1)"><img src="images/nav_partners.gif" alt="Partners" name="Image42" width="200" height="9" border="0" id="Image42" /></a></td>
+              </tr>
+              <tr>
+                <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="1" background="images/dot_horiz.gif"><span class="style2"><img src="images/shim.gif" width="150" height="1" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <!--<tr>
+                <td><a href="../founders.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image49','','../images/nav_founders_over.gif',1)"><img src="../images/nav_founders.gif" alt="Founders" name="Image49.1" width="200" height="9" border="0" id="Image49.1" /></a></td>
+              </tr>
+              <tr>
+                <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td height="8"><span class="style2"><img src="../images/shim.gif" width="50" height="8" /></span></td>
+                    </tr>
+                    <tr>
+                      <td height="1" background="../images/dot_horiz.gif"><span class="style2"><img src="../images/shim.gif" width="150" height="1" /></span></td>
+                    </tr>
+                    <tr>
+                      <td height="8"><span class="style2"><img src="../images/shim.gif" width="50" height="8" /></span></td>
+                    </tr>
+                </table></td>
+              </tr>-->
+              <tr>
                 <td><a href="contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image49','','images/nav_contact_over.gif',1)"><img src="images/nav_contact.gif" alt="Contact Us" name="Image49" width="200" height="9" border="0" id="Image49" /></a></td>
               </tr>
               <tr>
@@ -245,6 +323,7 @@ function MM_swapImage() { //v3.0
                     </tr>
                 </table></td>
               </tr>
+              
               <tr>
                 <td><a href="spanish/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image85','','images/nav_espanol_over.gif',1)"><img src="images/nav_espanol.gif" alt="View Spanish version of this site." name="Image85" width="200" height="12" border="0" id="Image85" /></a></td>
               </tr>
@@ -278,7 +357,7 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
-                <td><a href="http://www.facebook.com/pages/lgbt-Center-of-Raleigh/34335003862?ref=search&amp;sid=1382332332.3158455808..1" target="_blank" onmouseover="MM_swapImage('Image46','','images/facebook_over.jpg',1)" onmouseout="MM_swapImgRestore()"><img src="images/facebook.jpg" alt="Join Us On Facebook" name="Image46" width="200" height="20" border="0" id="Image46" /></a></td>
+                <td><a href="http://www.facebook.com/pages/lgbt-Center-of-Raleigh/34335003862?ref=search&sid=1382332332.3158455808..1" target="_blank" onMouseOver="MM_swapImage('Image46','','images/facebook_over.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/facebook.gif" alt="Join Us On Facebook" name="Image46" width="200" height="20" border="0"></a></td>
               </tr>
               <tr>
                 <td height="10"><span class="style2"><img src="images/shim.gif" width="50" height="10" /></span></td>
@@ -295,54 +374,72 @@ function MM_swapImage() { //v3.0
               <tr>
                 <td width="30"><img src="images/shim.gif" width="30" height="30" /></td>
                 <td><p class="bluebold">Resources</p>
-                  <p class="body"><span class="bodybold">News and Current Events</span></p>
+				<p class="bodybold"><a href="#news_events">News and Current Events</a><br/>
+				<a href="#academic">Academic</a><br/>
+				<a href="#arts">Arts</a><br/>
+				<a href="#books">Books and Videos</a><br/>
+				<a href="#clubs">Clubs</a><br/>
+				<a href="#community">Community Support</a><br/>
+				<a href="#entertainment">Entertainment</a><br/>
+				<a href="#medical">Medical</a><br/>
+				<a href="#political">Political/Legal</a><br/>
+				<a href="#religious">Religious</a><br/>
+				<a href="#retail">Retail</a><br/>
+				<a href="#service">Service Groups</a><br/>
+				<a href="#social">Social</a><br/>
+				<a href="#sports">Sports</a><br/>
+				<a href="#transgender">Transgender</a><br/>
+				<a href="#transportation">Transportation</a><br/>
+				<a href="#travel">Travel/Vacation</a><br/></p>
+                  <p class="body"><span class="bodybold" id="news_events">News and Current Events</span></p>
                   <blockquote>
                     <p class="body">Triangle Local Events: <a href="http://www.trianglelocalevents.com" target="_blank">www.trianglelocalevents.com</a><br />
                       Raleigh GLBT Report: <a href="mailto:raleighglbtreport@att.net">raleighglbtreport@att.net</a><br />
                       Qnotes: <a href="http://www.q-notes.com" target="_blank">www.q-notes.com</a><br />
                       Greater Raleigh Convention and Visitors Bureau: <a href="http://www.visitraleigh.com" target="_blank">www.visitraleigh.com</a></p>
                   </blockquote>
-                  <p class="bodybold">Academic</p>
+                  <p class="bodybold" id="academic">Academic</p>
                   <blockquote>
                     <p class="body">NC State University GLBT Center: <a href="http://www.ncsu.edu/student_affairs/glbt" target="_blank">www.ncsu.edu/student_affairs/glbt</a><br />
                       Duke University Lesbian, Gay, Bisexual &amp; Transgender Life: <br />
-                      <a href="http://lgbt.studentaffairs.duke.edu/" target="_blank">lgbt.studentaffairs.duke.edu/</a></p>
+                      <a href="http://lgbt.studentaffairs.duke.edu/" target="_blank">lgbt.studentaffairs.duke.edu</a></p>
                   </blockquote>
-                  <p class="bodybold">Arts</p>
+                  <p class="bodybold" id="arts">Arts</p>
                   <blockquote>
                     <p class="body">Artspace Visual Art Center: <a href="http://www.artspacenc.org" target="_blank">www.artspacenc.org</a><br />
                       North Carolina Museum of Art: <a href="http://www.ncartmuseum.org" target="_blank">www.ncartmuseum.org</a></p>
                   </blockquote>
-                  <p class="bodybold">Books and Videos</p>
+                  <p class="bodybold" id="books">Books and Videos</p>
                   <blockquote>
                     <p class="body">Our Place (Adult)</p>
                   </blockquote>
-                  <p class="bodybold">Clubs</p>
+                  <p class="bodybold" id="clubs">Clubs</p>
                   <blockquote>
                     <p class="body">Capital Corral: <a href="http://www.cc-raleigh.com" target="_blank">www.cc-raleigh.com</a><br />
                       Flex: <a href="http://www.flex-club.com" target="_blank">www.flex-club.com</a><br />
                       Legends: <a href="http://www.legends-club.com" target="_blank">www.legends-club.com</a><br />
                       Steel Blue: <a href="http://www.myspace.com/clubsteelblue" target="_blank">www.myspace.com/clubsteelblue</a><br />
                       Stir: <a href="http://www.myspace.com/stireastend" target="_blank">www.myspace.com/stireastend</a><br />
+					  Tantra: <a href="http://www.tantraraleigh.com/" target="_blank">www.tantraraleigh.com</a><br/>
                       Thrive: <a href="http://www.myspace.com/thriveindurham" target="_blank">www.myspace.com/thriveindurham</a><br />
                       Warehouse29: <a href="http://www.w29.com" target="_blank">www.w29.com</a></p>
                   </blockquote>
-                  <p class="bodybold">Community Support</p>
+                  <p class="bodybold" id="community">Community Support</p>
                   <blockquote>
                     <p class="body">The Raleigh Area Gay Parents Meetup Group: <a href="http://www.gayparents.meetup.com/78" target="_blank">www.gayparents.meetup.com/78</a><br />
 					Crape Myrtle Festival: <a href="http://www.crapemyrtlefest.org/" target="_blank">www.crapemyrtlefest.org</a></p>
                   </blockquote>
-                  <p class="bodybold">Entertainment</p>
+                  <p class="bodybold" id="entertainment">Entertainment</p>
                   <blockquote>
                     <p class="body">North Carolina Gay and Lesbian Film Festival: <a href="http://www.carlolinatheatre.org/ncglff" target="_blank">www.carlolinatheatre.org/ncglff</a><br />
                       Triangle Gay Men&rsquo;s Chorus: <a href="http://www.tgmchorus.org" target="_blank">www.tgmchorus.org</a></p>
                   </blockquote>
-                  <p class="bodybold">Medical</p>
+                  <p class="bodybold" id="medical">Medical</p>
                   <blockquote>
                     <p class="body">HIV testing: <a href="http://www.myspace.com/shachiv" target="_blank">www.myspace.com/shachiv</a><br />
                       Alliance of AIDS Services &ndash; Carolina (AASC): <a href="http://www.aas-c.org" target="_blank">www.aas-c.org</a></p>
                   </blockquote>
-                  <p class="bodybold">Political/Legal</p>
+                  <p class="bodybold" id="political">Political/Legal</p>
                   <blockquote>
                     <p class="body">                      Log Cabin Republicans: <a href="http://www.groups.yahoo.com/group/lcrnorthcarolina" target="_blank">www.groups.yahoo.com/group/lcrnorthcarolina</a><br />
                       ACLU of North Carolina: <a href="http://www.cluofnorthcaronlina.org" target="_blank">www.cluofnorthcaronlina.org</a><br />
@@ -351,7 +448,7 @@ function MM_swapImage() { //v3.0
                       NARAL Pro Choice N.C.: <a href="http://www.prochoicenc.org" target="_blank">www.prochoicenc.org</a><br />
                       National Organization of Women (NOW): <a href="http://www.raleighnow.org" target="_blank">www.raleighnow.org</a></p>
                     </blockquote>
-                  <p class="bodybold">Religious</p>
+                  <p class="bodybold" id="religious">Religious</p>
                   <blockquote>
                     <p class="body">St. John&rsquo;s Metropolitan Community Church: <a href="http://www.stjohnsmcc.org" target="_blank">www.stjohnsmcc.org</a><br />
                       Calvary United Methodist Church, Durham: <a href="http://www.calvarync.org" target="_blank">www.calvarync.org</a><br />
@@ -370,7 +467,12 @@ function MM_swapImage() { //v3.0
 					  Community United Church of Christ: <a href="http://www.communityucc.org/" target="_blank">www.communityucc.org</a><br />
                       Judea Reform Synagogue, Durham: <a href="http://www.judeareform.org" target="_blank">www.judeareform.org</a></p>
                   </blockquote>
-                  <p class="bodybold">Service Groups</p>
+				  <p class="bodybold" id="retail">Retail</p>
+				  <blockquote>
+				    <p class="body">Green Monkey: <a href="http://www.thegreenmonkeyonline.com/" target="_blank">www.thegreenmonkeyonline.com</a><br/>
+					White Rabbit: <a href="http://www.whiterabbitbooks.com/" target="_blank">www.whiterabbitbooks.com</a></p>
+				  </blockquote>
+                  <p class="bodybold" id="service">Service Groups</p>
                   <blockquote>
                     <p class="body">Crape Myrtle Festival: <a href="http://www.crapemyrtlefest.org" target="_blank">www.crapemyrtlefest.org</a><br />
                       Triangle Community Works: <a href="http://www.tcworks.org" target="_blank">www.tcworks.org</a><br />
@@ -380,7 +482,7 @@ function MM_swapImage() { //v3.0
                       Wake County Human Services: <a href="http://www.wakegov.com/humanservices/default.htm" target="_blank">www.wakegov.com/humanservices/default.htm</a><br />
                       Hopeline, Inc.: <a href="http://www.hopeline-nc.org" target="_blank">www.hopeline-nc.org</a></p>
                   </blockquote>
-                  <p class="bodybold">Social</p>
+                  <p class="bodybold" id="social">Social</p>
                   <blockquote>
                     <p class="body">NC Pride Band: <a href="http://www.ncpmb.org" target="_blank">www.ncpmb.org</a><br />
                       Triangle Area Gay Scientists (TAGS): <a href="http://www.tags.zuberfowler.com" target="_blank">www.tags.zuberfowler.com</a><br />
@@ -406,7 +508,7 @@ function MM_swapImage() { //v3.0
                         <a href="http://http://www.meetup.com/trianglegayprofessionals/" target="_blank">www.meetup.com/raleighbayprofessionals</a></p>
                     </blockquote>
                   </blockquote>
-                  <p class="bodybold">Sports</p>
+                  <p class="bodybold" id="sports">Sports</p>
                   <blockquote>
                     <p class="body">Triangle Tennis Club: <a href="http://www.triangletennisclub.com" target="_blank">www.triangletennisclub.com</a><br />
                       Carolina Pines Women&rsquo;s Dojo: <a href="http://www.durhamkarate.com" target="_blank">www.durhamkarate.com</a><br />
@@ -417,17 +519,17 @@ function MM_swapImage() { //v3.0
                       Softball League: <a href="mailto:ktroshinsky@dcemail.com">ktroshinsky@dcemail.com</a><br />
                       Kodiaks Rugby Team: <a href="http://www.kodiaks.org" target="_blank">www.kodiaks.org</a></p>
                   </blockquote>
-                  <p class="bodybold">Transgender</p>
+                  <p class="bodybold" id="transgender">Transgender</p>
                   <blockquote>
                     <p class="body">Durham Gender Alliance Group: <br />
                       <a href="http://www.groups.yahoo.com/group/durhamgenderalliance" target="_blank">www.groups.yahoo.com/group/durhamgenderalliance</a></p>
                   </blockquote>
-				  <p class="bodybold">Transportation</p>
+				  <p class="bodybold" id="transportation">Transportation</p>
                   <blockquote>
                     <p class="body">All-Points Personal Transportation: <a href="http://www.all-pointsnc.com" target="_blank">www.all-pointsnc.com</a>
 					</p>
                   </blockquote>
-				  <p class="bodybold">Travel/Vacation</p>
+				  <p class="bodybold" id="travel">Travel/Vacation</p>
                   <blockquote>
                     <p class="body">Lundy Charters: <a href="http://www.lundycharters.com" target="_blank">www.lundycharters.com</a>
 					</p>
