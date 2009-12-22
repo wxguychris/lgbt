@@ -49,7 +49,7 @@ function MM_swapImage() { //v3.0
 </script>
 </head>
 
-<body onload="MM_preloadImages('images/nav_calendar_over.gif','images/nav_community_over.gif','images/nav_photos_over.gif','images/nav_ack_over.gif','images/nav_contact_over.gif','images/join_email_list_over.gif','images/nav_vol_over.gif','images/nav_espanol_over.gif','images/nav_sponsors_over.gif','images/facebook_over.jpg','images/nav_contribute_over.gif','images/nav_founders_over.gif','Library/images/nav_contribute_over.gif')">
+<body onload="MM_preloadImages('images/nav_calendar_over.gif','images/nav_community_over.gif','images/nav_photos_over.gif','images/nav_ack_over.gif','images/nav_contact_over.gif','images/join_email_list_over.gif','images/nav_vol_over.gif','images/nav_espanol_over.gif','images/nav_sponsors_over.gif','images/facebook_over.jpg','images/nav_contribute_over.gif','images/nav_founders_over.gif','Library/images/nav_contribute_over.gif','images/nav_partners_over.gif','images/facebook_over.gif')">
 <table width="820" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td width="10" height="10" background="images/shad_tl.jpg"><img src="images/shim.gif" width="10" height="10" /></td>
@@ -114,6 +114,7 @@ function MM_swapImage() { //v3.0
                   <tr>
                     <td class="style2"><img src="images/shim.gif" width="50" height="10" /></td>
                     <td class="style2"><p class="nav"><a href="about_mission.html" class="nav">Our Mission<br />
+                    </a><a href="about_vision.html" class="nav">Our Vision<br />
                     </a><a href="about_board.html" class="nav">Board Members<br />
                     </a><a href="about_news.html" class="nav">News</a></p>                      </td>
                   </tr>
@@ -134,7 +135,7 @@ function MM_swapImage() { //v3.0
               </tr>
               <tr>
 
-                <td><a href="contribute.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image47','','images/nav_contribute_over.gif',1)"><img src="http://www.lgbtcenterofraleigh.com/images/nav_contribute.gif" alt="Contribute" name="Image47" id="Image47" border="0" width="200" height="9"></a></td>
+                <td><a href="contribute.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image47','','images/nav_contribute_over.gif',1)"><img src="images/nav_contribute.gif" alt="Contribute" name="Image47" id="Image47" border="0" width="200" height="9"></a></td>
               </tr>
               <tr>
                 <td><table align="center" border="0" cellpadding="0" cellspacing="0" width="150">
@@ -178,7 +179,7 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>-->
               <tr>
-                <td><a href="volunteer.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image84','','images/nav_vol_over.gif',1)"><img src="images/nav_vol.gif" alt="Volunteer Opportunities" name="Image84" width="200" height="11" border="0" id="Image84" /></a></td>
+                <td><a href="volunteer.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image84','','images/nav_vol_over.gif',1)"><img src="images/nav_vol.gif" alt="Volunteer Opportunities" name="Image84" width="200" height="9" border="0" id="Image84" /></a></td>
               </tr>
               <tr>
                 <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -242,7 +243,39 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
+                <td><a href="founders.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image421','','images/nav_founders_over.gif',1)"><img src="images/nav_founders.gif" alt="Founders" name="Image421" width="200" height="9" border="0" id="Image421" /></a></td>
+              </tr>
+              <tr>
+                <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="1" background="images/dot_horiz.gif"><span class="style2"><img src="images/shim.gif" width="150" height="1" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
                 <td><a href="sponsors.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image45','','images/nav_sponsors_over.gif',1)"><img src="images/nav_sponsors.gif" alt="Sponsors" name="Image45" width="200" height="9" border="0" id="Image45" /></a></td>
+              </tr>
+              <tr>
+                <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="1" background="images/dot_horiz.gif"><span class="style2"><img src="images/shim.gif" width="150" height="1" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><a href="partners.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image42','','images/nav_partners_over.gif',1)"><img src="images/nav_partners.gif" alt="Partners" name="Image42" width="200" height="9" border="0" id="Image42" /></a></td>
               </tr>
               <tr>
                 <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -323,7 +356,7 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
-                <td><a href="http://www.facebook.com/pages/lgbt-Center-of-Raleigh/34335003862?ref=search&sid=1382332332.3158455808..1" target="_blank" onMouseOver="MM_swapImage('Image46','','images/facebook_over.jpg',1)" onMouseOut="MM_swapImgRestore()"><img src="images/facebook.jpg" alt="Join Us On Facebook" name="Image46" width="200" height="20" border="0"></a></td>
+                <td><a href="http://www.facebook.com/pages/lgbt-Center-of-Raleigh/34335003862?ref=search&sid=1382332332.3158455808..1" target="_blank" onMouseOver="MM_swapImage('Image46','','images/facebook_over.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/facebook.gif" alt="Join Us On Facebook" name="Image46" width="200" height="20" border="0"></a></td>
               </tr>
               <tr>
                 <td height="10"><span class="style2"><img src="images/shim.gif" width="50" height="10" /></span></td>
@@ -360,20 +393,39 @@ The director, Kortney Ryan Ziegler is a genderqueer filmmaker and doctoral stude
 					<p class="body">The board of the LGBT Center of Raleigh will be meeting at 6pm on 11/24. The meeting will be held at 410 N. Boylan Ave (<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=410+N+Boylan+Ave+Raleigh+NC&sll=35.775215,-78.651381&sspn=0.006633,0.01929&ie=UTF8&hq=&hnear=410+N+Boylan+Ave,+Raleigh,+Wake,+North+Carolina+27603&t=h&z=16" target="_blank">map</a>).
 					</p>
 				  </blockquote>-->
-				  <p class="bodybold">Friday, December 11th 2009 </p>
+				  <p class="bodybold">Friday, December 11, 2009 </p>
 				  <blockquote>
 					<p class="body">Doors open at 6pm - Holiday Social Fundraising Event to benefit the LGBT Center of Raleigh.
 					Hosted by Tantra, Raleigh's New LGBT Nightclub. Tantra is located at 310 S. West Street (<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=310+s+west+street+raleigh+nc&sll=35.786287,-78.674961&sspn=0.009852,0.019398&ie=UTF8&hq=&hnear=310+S+West+St,+Raleigh,+Wake,+North+Carolina+27603&ll=35.777505,-78.646424&spn=0.009853,0.019398&t=h&z=16&iwloc=A" target="_blank">map</a>).
 					$10 admission, <a href="images/dec11_fundraiser.jpg">click here</a> for a flyer with information.
 					</p>
 				  </blockquote>
-				  <p class="bodybold">Sunday, December 20th 2009</p>
+				  <p class="bodybold">Sunday, December 20, 2009</p>
 				  <blockquote>
 				  	<p class="body">10:30AM. Worship and party thanking God for 20+ years of full participation by members of all gender-identities.  Help us celebrate!  
 					Community United Church of Christ, 814 Dixie Trail, Raleigh; www.communityucc.org, 787-6422.
 					</p>
 				  </blockquote>
-				  <p class="bodybold">Wednesday, Feburary 20th 2009</p>
+				  <p class="bodybold">Thursday, December 31, 2009</p>
+				  <blockquote>
+				  	<p class="body">Doors open at 11pm - THRIVE! 1 Year Anniversary and NYE Bash! @ Club 9, 746 9th Street, 27705. $10 entry, 18+<br/><br/>
+Join us for our 1 year anniversary and NYE bash!  We have a very special guest DJ this year, Hotwax Harley. He rocked the dance floor last year so you will not want to miss it.
+<br/><br/>
+Hotwax has DJ'ed in many metropolitan areas over the years including: Chicago, New York City, Orlando, Atlanta and Washington DC, as well as playing in some of North Carolina's most top-rated clubs: Oasis, NV, CC, Legends, Mythos, Scorpio, Babylon and Club Oxygen.  He also had very successful residencies at Power Company in Durham, NC and hot weeklies called Radiance and Insomnia at Club Gotham in Chapel Hill, NC.
+<br/><br/>
+We are also starting a second room on the patio (with heaters!). Nogui will be spinning the best in 80's, disco, old school, hip hop and more.  We will also have party favors and a champagne toast at midnight!  Get there early as we are expecting a sell out crowd.
+<br/><br/>
+Line Up:<br/>
+* Aron Wayne 11-12am<br/>
+* Hotwax Harley 12-1:30am<br/>
+* Slipstream 1:30-2:30am<br/>
+* Nogui: On the patio all night!<br/><br/>
+
+THRIVE is the hottest dance monthly every 4th Friday for the LGBT community and allies. It will feature the hottest dance music from club house remixes, funky house, trance, hip hop, disco, 80's, old school and more mixed to perfection by resident DJ's Slipstream and Nogui.
+<br/>
+Drink specials all night.
+</p></blockquote>
+				  <p class="bodybold">Wednesday, Feburary 20, 2010</p>
 				  <blockquote>
 					<p class="body">The North Carolina Human Rights Campaign will be holding a dinner at the Raleigh Convention Center. More information to come soon.
 					</p>
