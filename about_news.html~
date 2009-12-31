@@ -81,7 +81,7 @@ function MM_CheckFlashVersion(reqVerStr,msg){
 </script>
 </head>
 
-<body onload="MM_preloadImages('images/nav_calendar_over.gif','images/nav_community_over.gif','images/nav_photos_over.gif','images/nav_ack_over.gif','images/nav_contact_over.gif','images/join_email_list_over.gif','images/nav_vol_over.gif','images/nav_espanol_over.gif','images/nav_sponsors_over.gif','images/facebook_over.jpg','images/nav_contribute_over.gif','images/nav_founders_over.gif','Library/images/nav_contribute_over.gif');MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?')">
+<body onload="MM_preloadImages('images/nav_calendar_over.gif','images/nav_community_over.gif','images/nav_photos_over.gif','images/nav_ack_over.gif','images/nav_contact_over.gif','images/join_email_list_over.gif','images/nav_vol_over.gif','images/nav_espanol_over.gif','images/nav_sponsors_over.gif','images/facebook_over.jpg','images/nav_contribute_over.gif','images/nav_founders_over.gif','Library/images/nav_contribute_over.gif','images/nav_partners_over.gif','images/facebook_over.gif');MM_CheckFlashVersion('8,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?')">
 <table width="820" border="0" align="center" cellpadding="0" cellspacing="0">
   <tr>
     <td width="10" height="10" background="images/shad_tl.jpg"><img src="images/shim.gif" width="10" height="10" /></td>
@@ -146,6 +146,7 @@ function MM_swapImage() { //v3.0
                   <tr>
                     <td class="style2"><img src="images/shim.gif" width="50" height="10" /></td>
                     <td class="style2"><p class="nav"><a href="about_mission.html" class="nav">Our Mission<br />
+                    </a><a href="about_vision.html" class="nav">Our Vision<br />
                     </a><a href="about_board.html" class="nav">Board Members<br />
                     </a><a href="about_news.html" class="nav">News</a></p>                      </td>
                   </tr>
@@ -166,7 +167,7 @@ function MM_swapImage() { //v3.0
               </tr>
               <tr>
 
-                <td><a href="contribute.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image47','','images/nav_contribute_over.gif',1)"><img src="http://www.lgbtcenterofraleigh.com/images/nav_contribute.gif" alt="Contribute" name="Image47" id="Image47" border="0" width="200" height="9"></a></td>
+                <td><a href="contribute.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image47','','images/nav_contribute_over.gif',1)"><img src="images/nav_contribute.gif" alt="Contribute" name="Image47" id="Image47" border="0" width="200" height="9"></a></td>
               </tr>
               <tr>
                 <td><table align="center" border="0" cellpadding="0" cellspacing="0" width="150">
@@ -210,7 +211,7 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>-->
               <tr>
-                <td><a href="volunteer.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image84','','images/nav_vol_over.gif',1)"><img src="images/nav_vol.gif" alt="Volunteer Opportunities" name="Image84" width="200" height="11" border="0" id="Image84" /></a></td>
+                <td><a href="volunteer.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image84','','images/nav_vol_over.gif',1)"><img src="images/nav_vol.gif" alt="Volunteer Opportunities" name="Image84" width="200" height="9" border="0" id="Image84" /></a></td>
               </tr>
               <tr>
                 <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -274,7 +275,39 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
+                <td><a href="founders.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image421','','images/nav_founders_over.gif',1)"><img src="images/nav_founders.gif" alt="Founders" name="Image421" width="200" height="9" border="0" id="Image421" /></a></td>
+              </tr>
+              <tr>
+                <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="1" background="images/dot_horiz.gif"><span class="style2"><img src="images/shim.gif" width="150" height="1" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
                 <td><a href="sponsors.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image45','','images/nav_sponsors_over.gif',1)"><img src="images/nav_sponsors.gif" alt="Sponsors" name="Image45" width="200" height="9" border="0" id="Image45" /></a></td>
+              </tr>
+              <tr>
+                <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="1" background="images/dot_horiz.gif"><span class="style2"><img src="images/shim.gif" width="150" height="1" /></span></td>
+                  </tr>
+                  <tr>
+                    <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><a href="partners.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image42','','images/nav_partners_over.gif',1)"><img src="images/nav_partners.gif" alt="Partners" name="Image42" width="200" height="9" border="0" id="Image42" /></a></td>
               </tr>
               <tr>
                 <td><table width="150" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -355,7 +388,7 @@ function MM_swapImage() { //v3.0
                 </table></td>
               </tr>
               <tr>
-                <td><a href="http://www.facebook.com/pages/lgbt-Center-of-Raleigh/34335003862?ref=search&sid=1382332332.3158455808..1" target="_blank" onMouseOver="MM_swapImage('Image46','','images/facebook_over.jpg',1)" onMouseOut="MM_swapImgRestore()"><img src="images/facebook.jpg" alt="Join Us On Facebook" name="Image46" width="200" height="20" border="0"></a></td>
+                <td><a href="http://www.facebook.com/pages/lgbt-Center-of-Raleigh/34335003862?ref=search&sid=1382332332.3158455808..1" target="_blank" onMouseOver="MM_swapImage('Image46','','images/facebook_over.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/facebook.gif" alt="Join Us On Facebook" name="Image46" width="200" height="20" border="0"></a></td>
               </tr>
               <tr>
                 <td height="10"><span class="style2"><img src="images/shim.gif" width="50" height="10" /></span></td>
@@ -373,16 +406,18 @@ function MM_swapImage() { //v3.0
                 <td width="30"><img src="images/shim.gif" width="30" height="30" /></td>
                 <td><p class="bluebold">News</p>
 				<!--<p class="bodybold"><a href="#HolidayFundraiser">Holiday Social Fundraising Event - Dec 11, 2009</a></p>-->
-				  <p class="bodybold" id="BoardMeeting">Board Meeting - Tuesday, November 24th 2009</p>
+				  <!--<p class="bodybold" id="BoardMeeting">Board Meeting - Tuesday, November 24th 2009</p>
 					<p class="body">The next board meeting for the LGBT Center of Raleigh will be held on Tuesday, November 24th at 6pm at 410 N. Boylan Ave
 					(<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=410+N+Boylan+Ave+Raleigh+NC&sll=35.775215,-78.651381&sspn=0.006633,0.01929&ie=UTF8&hq=&hnear=410+N+Boylan+Ave,+Raleigh,+Wake,+North+Carolina+27603&t=h&z=16" target="_blank">map</a>).
+					</p>-->
+				<p class="bodybold" id="BoardMeeting">Board Meeting - Tuesday, December 29th 2009</p>
+				  <p class="body">The next board meeting for the LGBT Center of Raleigh will be held on Tuesday, December 29th at 6:15pm at 410 N. Boylan Ave
+					(<a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=410+N+Boylan+Ave+Raleigh+NC&sll=35.775215,-78.651381&sspn=0.006633,0.01929&ie=UTF8&hq=&hnear=410+N+Boylan+Ave,+Raleigh,+Wake,+North+Carolina+27603&t=h&z=16" target="_blank">map</a>).
 					</p>
-				  <p class="bodybold" id="HolidayFundraiser">Holiday Social Fundraising Event - Friday, December 11th 2009</p>
-				  <p class="body"><img src="images/dec11_fundraiser_resized.png" /><br/><br/></p>
 				<p class="bluebold">Archived News</p>
 				<p class="bodybold"><a href="#TGMC925">Triangle Gay Men's Chorus - Sept 25, 2009</a><br/>
-								    <a href="#MooreSq">Coming Out Party at Moore Square - Oct 17, 2009</a></p>
-			
+								    <a href="#MooreSq">Coming Out Party at Moore Square - Oct 17, 2009</a><br/>
+									<A href="#HolidayFundraiser">Holiday Social Fundraising Event - Dec 11,2009</A></p>
                   <p class="bodybold" id="TGMC925">Triangle Gay Men's Chorus - Friday, September 25th 2009 </p>
                   <p class="body">The Triangle Gay Men's Chorus presents &quot;Threads of Hope&quot;, a concert honoring North Carolina GLBT Pride,&nbsp; with Special Guests the Gay Men's Chorus of Charlotte. <br />
                     A portion of the proceeds from this concert will benefit the Alliance of AIDS Services- Carolina (<a href="http://www.aas-c.org/">www.aas-c.org</a>). </p>
@@ -400,7 +435,8 @@ function MM_swapImage() { //v3.0
                     <p class="body">We hope to see you there at this historic and ground-breaking event. Be a part of history.</p>
                     <p class="body">If you are interested in being an individual or corporate sponsor of this event, please contact Bobby Hilburn at <a href="mailto:bobby.l.hilburn@ampf.com">bobby.l.hilburn@ampf.com</a> or 910-625-8748.</p>
                     </blockquote>
-                 
+                 <p class="bodybold" id="HolidayFundraiser">Holiday Social Fundraising Event - Friday, December 11th 2009</p>
+				  <p class="body"><img src="images/dec11_fundraiser_resized.png" /><br/><br/></p>
                   </td>
                 <td width="60"><img src="images/shim.gif" width="30" height="30" /></td>
               </tr>

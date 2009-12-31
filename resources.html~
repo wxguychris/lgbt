@@ -374,23 +374,40 @@ function MM_swapImage() { //v3.0
               <tr>
                 <td width="30"><img src="images/shim.gif" width="30" height="30" /></td>
                 <td><p class="bluebold">Resources</p>
-				<p class="bodybold"><a href="#news_events">News and Current Events</a><br/>
-				<a href="#academic">Academic</a><br/>
-				<a href="#arts">Arts</a><br/>
-				<a href="#books">Books and Videos</a><br/>
-				<a href="#clubs">Clubs</a><br/>
-				<a href="#community">Community Support</a><br/>
-				<a href="#entertainment">Entertainment</a><br/>
-				<a href="#medical">Medical</a><br/>
-				<a href="#political">Political/Legal</a><br/>
-				<a href="#religious">Religious</a><br/>
-				<a href="#retail">Retail</a><br/>
-				<a href="#service">Service Groups</a><br/>
-				<a href="#social">Social</a><br/>
-				<a href="#sports">Sports</a><br/>
-				<a href="#transgender">Transgender</a><br/>
-				<a href="#transportation">Transportation</a><br/>
-				<a href="#travel">Travel/Vacation</a><br/></p>
+				<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+				  <tr>
+				    <td valign="top">
+						<p class="bodybold"><a href="#news_events">News and Current Events</a><br/>
+						 <a href="#academic">Academic</a><br/>
+						 <a href="#arts">Arts</a><br/>
+						 <a href="#books">Books and Videos</a><br/>
+						 <a href="#clubs">Clubs</a><br/>
+						 <a href="#community">Community Support</a><br/>
+						 <a href="#corporations">Corporations</a><br/>
+						 <a href="#entertainment">Entertainment</a><br/>
+						 <a href="#finplan">Financial Planners</a><br/>
+						 <a href="#medical">Medical</a><br/>
+						 <a href="#political">Political/Legal</a><br/>
+						 <a href="#psych">Psychological Services</a><br/>
+						</p>
+				    </td>
+				    <td valign="top">
+					    <p class="bodybold">
+						 <a href="#publishers">Publishers</a><br/>
+						 <a href="#realtors">Realtors</a><br/>
+						 <a href="#religious">Religious</a><br/>
+						 <a href="#retail">Retail</a><br/>
+						 <a href="#service">Service Groups</a><br/>
+						 <a href="#social">Social</a><br/>
+						 <a href="#sports">Sports</a><br/>
+						 <a href="#transgender">Transgender</a><br/>
+						 <a href="#transportation">Transportation</a><br/>
+						 <a href="#travel">Travel/Vacation</a><br/>
+						 <a href="#vet">Veterinarians</a><br/>
+						</p>
+					</td>
+				   </tr>
+				</table>
                   <p class="body"><span class="bodybold" id="news_events">News and Current Events</span></p>
                   <blockquote>
                     <p class="body">Triangle Local Events: <a href="http://www.trianglelocalevents.com" target="_blank">www.trianglelocalevents.com</a><br />
@@ -429,10 +446,22 @@ function MM_swapImage() { //v3.0
                     <p class="body">The Raleigh Area Gay Parents Meetup Group: <a href="http://www.gayparents.meetup.com/78" target="_blank">www.gayparents.meetup.com/78</a><br />
 					Crape Myrtle Festival: <a href="http://www.crapemyrtlefest.org/" target="_blank">www.crapemyrtlefest.org</a></p>
                   </blockquote>
+				  <p class="bodybold" id="corporations">Corporations</p>
+                  <blockquote>
+                    <p class="body">
+					 Glaxo Smith Kline: Jack Modell &mdash; <a href="mailto:Jack.g.modell@gsk.com">E-mail</a> &mdash; 919-483-2328<br/>
+					</p>
+                  </blockquote>
                   <p class="bodybold" id="entertainment">Entertainment</p>
                   <blockquote>
                     <p class="body">North Carolina Gay and Lesbian Film Festival: <a href="http://www.carlolinatheatre.org/ncglff" target="_blank">www.carlolinatheatre.org/ncglff</a><br />
                       Triangle Gay Men&rsquo;s Chorus: <a href="http://www.tgmchorus.org" target="_blank">www.tgmchorus.org</a></p>
+                  </blockquote>
+				  <p class="bodybold" id="finplan">Financial Planners</p>
+                  <blockquote>
+                    <p class="body">
+					   Triangle Financial Advisors: Lorraine Johnson &mdash; 919-789-3098 <a href="http://www.trifiadv.com" target="_blank">www.trifiadv.com</a><br/>
+					</p>
                   </blockquote>
                   <p class="bodybold" id="medical">Medical</p>
                   <blockquote>
@@ -441,12 +470,35 @@ function MM_swapImage() { //v3.0
                   </blockquote>
                   <p class="bodybold" id="political">Political/Legal</p>
                   <blockquote>
-                    <p class="body">                      Log Cabin Republicans: <a href="http://www.groups.yahoo.com/group/lcrnorthcarolina" target="_blank">www.groups.yahoo.com/group/lcrnorthcarolina</a><br />
+                    <p class="body">
+					  Log Cabin Republicans: <a href="http://www.groups.yahoo.com/group/lcrnorthcarolina" target="_blank">www.groups.yahoo.com/group/lcrnorthcarolina</a><br />
                       ACLU of North Carolina: <a href="http://www.cluofnorthcaronlina.org" target="_blank">www.cluofnorthcaronlina.org</a><br />
                       Equality North Carolina: <a href="http://www.equalitync.org" target="_blank">www.equalitync.org</a><br />
                       Human Rights Campaign Triangle Chapter: <a href="http://www.northcarolina.hrc.org" target="_blank">www.northcarolina.hrc.org</a><br />
                       NARAL Pro Choice N.C.: <a href="http://www.prochoicenc.org" target="_blank">www.prochoicenc.org</a><br />
                       National Organization of Women (NOW): <a href="http://www.raleighnow.org" target="_blank">www.raleighnow.org</a></p>
+                    </blockquote>
+				  <p class="bodybold" id="psych">Psychological Services</p>
+                  <blockquote>
+                    <p class="body">
+					 Mike Katz, PhD<br/>
+					 Kate Gotelli, MSW, LCSW &mdash; Outpatient Therapist, Chapel Hill &mdash; 919-619-1098
+					</p>
+                    </blockquote>
+				  <p class="bodybold" id="publishers">Publishers</p>
+                  <blockquote>
+                    <p class="body">
+					Narrow Path Publishing &mdash Stephanie Silberstein &mdash; 919-710-0473 &mdash 
+					   <A href="http://www.narrowpathpublishing.net" target="_blank">www.narrowpathpublishing.net</A><br/>
+					</p>
+                    </blockquote>
+				  <p class="bodybold" id="realtors">Realtors</p>
+                  <blockquote>
+                    <p class="body">
+					   Allan Feinstein &mdash; ReMax/United, Cary &mdash; 919-218-2839 &mdash; 
+					     <a href="http://www.triangleregionliving.com" target="_blank">www.triangleregionliving.com</a><br/>
+					   Tim O'Brien &mdash; O'Brien &amp; Associates Realty, Inc., Raleigh &mdash; 919-332-1070
+					</p>
                     </blockquote>
                   <p class="bodybold" id="religious">Religious</p>
                   <blockquote>
@@ -465,12 +517,18 @@ function MM_swapImage() { //v3.0
                       Eno River Unitarian Universalist Fellowship, Durham: <a href="mailto:jdeburgos@eruuf.org">jdeburgos@eruuf.org</a><br />
                       Unitarian Universalist Fellowship of Raleigh: <a href="http://www.uufr.org" target="_blank">www.uufr.org</a><br />
 					  Community United Church of Christ: <a href="http://www.communityucc.org/" target="_blank">www.communityucc.org</a><br />
-                      Judea Reform Synagogue, Durham: <a href="http://www.judeareform.org" target="_blank">www.judeareform.org</a></p>
+                      Judea Reform Synagogue, Durham: <a href="http://www.judeareform.org" target="_blank">www.judeareform.org</a><br/>
+					  Temple Beth Shalom, Cary: <a href="http://www.carytemple.org/" target="_blank">www.carytemple.org</a><br/>
+					  Temple Beth Or, Raleigh: <a href="http://www.templebethor-raleigh.org" target="_blank">www.templebethor-raleigh.org</a><br/>
+					  </p>
                   </blockquote>
 				  <p class="bodybold" id="retail">Retail</p>
 				  <blockquote>
 				    <p class="body">Green Monkey: <a href="http://www.thegreenmonkeyonline.com/" target="_blank">www.thegreenmonkeyonline.com</a><br/>
-					White Rabbit: <a href="http://www.whiterabbitbooks.com/" target="_blank">www.whiterabbitbooks.com</a></p>
+					White Rabbit: <a href="http://www.whiterabbitbooks.com/" target="_blank">www.whiterabbitbooks.com</a><br/>
+					Quail Ridge Books and Music &mdash; 3522 Wade Ave., Raleigh: 919-828-1588 &mdash; 
+					  <a href="http://www.quailridgebooks.com" target="_blank">www.quailridgebooks.com</a><br/>
+					</p>
 				  </blockquote>
                   <p class="bodybold" id="service">Service Groups</p>
                   <blockquote>
@@ -480,7 +538,8 @@ function MM_swapImage() { //v3.0
                       Pflag: <a href="http://www.pflagtriangle.org" target="_blank">www.pflagtriangle.org</a><br />
                       Alliance of AIDS Services &ndash; Carolina (AASC): <a href="http://www.aas-c.org" target="_blank">www.aas-c.org</a><br />
                       Wake County Human Services: <a href="http://www.wakegov.com/humanservices/default.htm" target="_blank">www.wakegov.com/humanservices/default.htm</a><br />
-                      Hopeline, Inc.: <a href="http://www.hopeline-nc.org" target="_blank">www.hopeline-nc.org</a></p>
+                      Hopeline, Inc.: <a href="http://www.hopeline-nc.org" target="_blank">www.hopeline-nc.org</a>
+					  </p>
                   </blockquote>
                   <p class="bodybold" id="social">Social</p>
                   <blockquote>
@@ -495,7 +554,8 @@ function MM_swapImage() { //v3.0
                       GSK Gay and Lesbian Support Group: <a href="mailto:ken.kgray@gsk.com">ken.kgray@gsk.com</a><br />
                       IBM: <a href="mailto:eagleibm@earthlink.net">eagleibm@earthlink.net</a><br />
                       Raleighwood Squares Squaredancing: <a href="http://www.iagsdc.org/raleighwook" target="_blank">www.iagsdc.org/raleighwook</a><br />
-                      6 Colors LGBT Center in Raleigh: <a href="mailto:6colorzzlgbtcenter@gmail.com">6colorzzlgbtcenter@gmail.com</a></p>
+                      6 Colors LGBT Center in Raleigh: <a href="mailto:6colorzzlgbtcenter@gmail.com">6colorzzlgbtcenter@gmail.com</a><br/>
+					  Infinity Diamond Club: <a href="http://www.infinitydiamondclub.com" target="_blank">www.infinitydiamondclub.com</a></p>
                     <blockquote>
                       <p class="body"><span class="bodybold">Women&rsquo;s</span><br />
                         Silver Roses (Senior Lesbians): <a href="mailto:grayangel61@yahoo.com">grayangel61@yahoo.com</a><br />
@@ -505,7 +565,7 @@ function MM_swapImage() { //v3.0
                         Gay Men&rsquo;s Writers Group: <a href="mailto:playwright1010@yahoo.com">playwright1010@yahoo.com</a><br />
                         Primetimers: <a href="http://www.primetimersww.org/rduprimetimers" target="_blank">www.primetimersww.org/rduprimetimers</a><br />
                         Single Gay Professionals Raleigh Meetup Group:<br />
-                        <a href="http://http://www.meetup.com/trianglegayprofessionals/" target="_blank">www.meetup.com/raleighbayprofessionals</a></p>
+                        <a href="http://www.meetup.com/trianglegayprofessionals/" target="_blank">www.meetup.com/raleighbayprofessionals</a></p>
                     </blockquote>
                   </blockquote>
                   <p class="bodybold" id="sports">Sports</p>
@@ -531,7 +591,17 @@ function MM_swapImage() { //v3.0
                   </blockquote>
 				  <p class="bodybold" id="travel">Travel/Vacation</p>
                   <blockquote>
-                    <p class="body">Lundy Charters: <a href="http://www.lundycharters.com" target="_blank">www.lundycharters.com</a>
+                    <p class="body">
+					 Lundy Charters: <a href="http://www.lundycharters.com" target="_blank">www.lundycharters.com</a><br/>
+					 Triangle Travel Service: Alex Jones &mdash; <a href="mailto:smartalex1972@bellsouth.net">smartalex1972@bellsouth.net</a>
+					 Greater Raleigh Convention and Visitors Bureau: <a href="http://www.visitraleigh.com/glbt" target="_blank">www.visitraleigh.com/glbt</a>
+					</p>
+                  </blockquote>
+				  <p class="bodybold" id="vet">Veterinarians</p>
+                  <blockquote>
+                    <p class="body">
+					  Holly Springs Veterinary Hospital: 1050 N. Main St., Holly Springs, NC 27540 &mdash; 919-567-1775 &mdash;
+					    <a href="http://www.hollyspringsvet.com" target="_blank">www.hollyspringsvet.com</a><br/>
 					</p>
                   </blockquote>
                   <p class="body">&nbsp;</p></td>
