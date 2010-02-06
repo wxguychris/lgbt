@@ -428,7 +428,8 @@ function MM_swapImage() { //v3.0
                   <p class="bodybold" id="arts">Arts</p>
                   <blockquote>
                     <p class="body">Artspace Visual Art Center: <a href="http://www.artspacenc.org" target="_blank">www.artspacenc.org</a><br />
-                      North Carolina Museum of Art: <a href="http://www.ncartmuseum.org" target="_blank">www.ncartmuseum.org</a></p>
+                      North Carolina Museum of Art: <a href="http://www.ncartmuseum.org" target="_blank">www.ncartmuseum.org</a><br/>
+					  Litmus Gallery &amp; Studios: <a href="http://www.litmusgallery.com/" target="_blank">www.litmusgallery.com</a></p>
                   </blockquote>
 				  <p class="bodybold" id="attorneys">Attorneys</p>
                   <blockquote>
@@ -658,8 +659,8 @@ function MM_swapImage() { //v3.0
             <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
           </tr>
           <tr>
-            <td class="address">514 Daniels Street #152 | Raleigh, NC 27605 | <a href="mailto:info@lgbtcenterofraleigh.com">info@lgbtcenterofraleigh.com</a> | &copy; 2009 All Rights Reserved </td>
-          </tr>
+            <td class="address">410 N. Boylan Ave. | Raleigh, NC 27603 | <a href="mailto:info@lgbtcenterofraleigh.com">info@lgbtcenterofraleigh.com</a> | &copy; 2010 All Rights Reserved </td>
+  </tr>
           <tr>
             <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
           </tr>
