@@ -162,4 +162,14 @@
 		<bar_transparency>40</bar_transparency>
 		<slideshowTime>5</slideshowTime>
 	</item>
+	<item>
+		<path>rotate_marsocci.gif</path>
+		<title></title>
+		<caption></caption>
+		<target>_self</target>
+		<link>sponsors.html</link>
+		<bar_color>0xffffff</bar_color>
+		<bar_transparency>40</bar_transparency>
+		<slideshowTime>5</slideshowTime>
+	</item>
 </banner>
