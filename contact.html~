@@ -375,9 +375,9 @@ function MM_swapImage() { //v3.0
                 <td width="30"><img src="images/shim.gif" width="30" height="30" /></td>
                 <td><p class="bluebold">Contact Us</p>
                   <p class="body">The LGBT Center of Raleigh<br />
-410 N. Boylan Ave<br/>.
-Raleigh, NC 27603<br/>
-(919) 256-3749</p>
+316 W. Cabarrus St.<br/>
+Raleigh, NC 27601<br/>
+(919) 256-3748</p>
                   <p class="body"><a href="mailto:info@lgbtcenterofraleigh.com">info@lgbtcenterofraleigh.com</a></p>
                   <p class="body">For more information about the LGBT Center of Raleigh, contact Bobby Hilburn at 910-625-8748. </p>
                   <p class="body">The LGBT Center of Raleigh is a 501(c)(3) tax-exempt non-profit corporation. Contributions are tax-deductible to the extent allowed by law. Once we receive your contribution, we will send you an acknowledgement letter that can serve as your receipt for tax purposes.</p></td>
@@ -409,7 +409,7 @@ Raleigh, NC 27603<br/>
             <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
           </tr>
           <tr>
-            <td class="address">410 N. Boylan Ave. | Raleigh, NC 27603 | <a href="mailto:info@lgbtcenterofraleigh.com">info@lgbtcenterofraleigh.com</a> | &copy; 2010 All Rights Reserved </td>
+            <td class="address">316 W. Cabarrus St. | Raleigh, NC 27601 | <a href="mailto:info@lgbtcenterofraleigh.com">info@lgbtcenterofraleigh.com</a> | &copy; 2010 All Rights Reserved </td>
   </tr>
           <tr>
             <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>

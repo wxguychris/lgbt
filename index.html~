@@ -477,10 +477,10 @@ function MM_swapImage() { //v3.0
 
                         <tr>
                           <td width="10"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
-                          <td><p><span class="bluebold">12/31/09</span><br />    
+                          <td><p><span class="bluebold">02/17/10</span><br />    
                               <span class="bodysmall">RALEIGH, NC<br />
-                              The LGBT Center of Raleigh is pleased to announce new members on its Board of Directors.  
-                              &hellip; <a href="about_news.html">read more</a></span><br/><br/><span class="bluebold" style="color: rgb(0,125,0);">Happy Holidays!</span> </p></td>
+                              The LGBT Center of Raleigh is pleased to announce the acquisition of a physical location
+                              &hellip; <a href="about_news.html">read more</a></span><br/><br/> </p></td>
                           <td width="10"><span class="style2"><img src="images/shim.gif" width="10" height="10" /></span></td>
                         </tr>
                         <tr>
@@ -531,8 +531,8 @@ function MM_swapImage() { //v3.0
             <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
           </tr>
           <tr>
-            <td class="address">514 Daniels Street #152 | Raleigh, NC 27605 | <a href="mailto:info@lgbtcenterofraleigh.com">info@lgbtcenterofraleigh.com</a> | &copy; 2009 All Rights Reserved </td>
-          </tr>
+            <td class="address">316 W. Cabarrus St. | Raleigh, NC 27601 | <a href="mailto:info@lgbtcenterofraleigh.com">info@lgbtcenterofraleigh.com</a> | &copy; 2010 All Rights Reserved </td>
+  </tr>
           <tr>
             <td height="8"><span class="style2"><img src="images/shim.gif" width="50" height="8" /></span></td>
           </tr>
