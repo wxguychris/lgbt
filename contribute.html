@@ -375,7 +375,7 @@ function MM_swapImage() { //v3.0
                 <td><p class="bluebold">Make your secure contribution online:</p>
                   <table width="100%" border="0" cellspacing="0" cellpadding="0">
                     <tr valign="top">
-                      <td><form action="https://secure.internetsecure.com/process.cgi" method="post">
+                      <td><form action="makedonation.php" method="post">
                         <p class="bodybold">
                           <input type="hidden" name="GatewayID" value="50414" />
                           <input type="hidden" name="language" value="English" />
@@ -410,6 +410,10 @@ function MM_swapImage() { //v3.0
                         <p>
                           <input type="radio" name="Products" value="010,1" />
                           <span class="body">US $10 Donation </span></p>
+                        <p>
+                          <input type="radio" name="Products" value="recurring" id="recur"/>
+                          <span class="body">Monthly Donation: $
+                              <input type="text" name="Amount" size="4" onchange="javascript:document.getElementById('recur').checked=true;"/></span></p>
                         <p class="body">
                           <input name="Purchase" type="submit" class="bodysmall" id="Purchase" value="Purchase" />
                         </p>
@@ -422,7 +426,7 @@ function MM_swapImage() { //v3.0
                       <td width="1" background="images/dot_vert.gif"><img src="images/shim.gif" width="1" height="1" /></td>
                       <td width="15"><img src="images/shim.gif" width="15" height="15" /></td>
                       <td width="250"><p><span class="bluebold">Founders Triangle:</span> <span class="boldgrey">The first 1,000 people that show their support with a donation of $100 or more will be commemorated as Founders on display at the LGBT Center of Raleigh</span> </p>
-                        <p>Note: <span class="boldgrey">Monthly credit card or check donations can be arranged by calling 919-418-1601.</span> </p>
+                        <p>Note: <span class="boldgrey">Monthly check donations can be arranged by calling 919-418-1601.</span> </p>
                         <p>Pay by Check: <span class="boldgrey">You may also mail your check contribution to: The LGBT Center of Raleigh, 316 W. Cabarrus St. Raleigh, NC 27601 </span></p>
                         <p>Gift Donations: <span class="boldgrey">To give on behalf of or in honor of another individual, <em> make your donation on the left,</em> <a href="#gift">then complete the gift form below</a>. </span></p>
                         <p>Joint Donations: <span class="boldgrey">If you would like to make a donation in more than one name, <em> make your donation on the left,</em> <a href="#joint">then complete the joint donation form below</a>. </span></p>
@@ -459,7 +463,8 @@ function MM_swapImage() { //v3.0
                   </table>
                   <table width="100%" border="0" cellspacing="0" cellpadding="0">
                     <tr valign="top">
-                      <td><form id="Gift Donation" name="Gift Donation" method="post" action="gift.asp">
+                      <td><form id="Gift Donation" name="Gift Donation" method="post" action="mailer.php">
+                              <input type="hidden" name="type" value="Gift Donation"/>
                         <p class="bodybold"><a name="gift" id="gift"></a><span class="bluebold">Gift Donation</span> </p>
                         <p class="body">
                           <input name="Your Name" type="text" id="Your Name" size="25" maxlength="150" />
@@ -482,7 +487,7 @@ function MM_swapImage() { //v3.0
                           <input name="Gift Type" type="radio" value="on behalf of" />
                           on behalf of </p>
                         <p class="body">
-                          <input name="gift type" type="radio" value="in honor of" />
+                          <input name="Gift Type" type="radio" value="in honor of" />
                           in honor of</p>
                         <p class="bodybold"><span class="body">
                           <input name="Gift Recipient Name" type="text" id="Gift Recipient Name" size="25" maxlength="150" />
@@ -503,27 +508,28 @@ function MM_swapImage() { //v3.0
                       <td width="15"><img src="images/shim.gif" width="15" height="15" /></td>
                       <td><table border="0" cellspacing="0" cellpadding="0">
                           <tr>
-                            <td><form id="Joint Donation" name="Joint Donation" method="post" action="joint.asp">
+                            <td><form id="Joint Donation" name="Joint Donation" method="post" action="mailer.php">
+                              <input type="hidden" name="type" value="Joint Donation"/>
                               <p class="bodybold"><a name="joint" id="joint"></a><span class="bluebold">Joint Donation</span> </p>
                               <p class="bodybold">I would like to make my donation in more than one name. </p>
                               <p class="body">
-                                <input name="Your Name3" type="text" id="Your Name3" size="25" maxlength="150" />
+                                <input name="Your Name" type="text" id="Your Name3" size="25" maxlength="150" />
                                 <br />
                                 Your Name</p>
                               <p class="body">
-                                <input name="Phone Number3" type="text" id="Phone Number3" size="25" maxlength="150" />
+                                <input name="Phone Number" type="text" id="Phone Number3" size="25" maxlength="150" />
                                 <br />
                                 Phone Number</p>
                               <p class="body">
-                                <input name="Email Address3" type="text" id="Email Address3" size="25" maxlength="150" />
+                                <input name="Email Address" type="text" id="Email Address3" size="25" maxlength="150" />
                                 <br />
                                 Email Address </p>
                               <p class="body">
-                                <input name="Physical Address3" type="text" id="Physical Address3" size="25" maxlength="150" />
+                                <input name="Physical Address" type="text" id="Physical Address3" size="25" maxlength="150" />
                                 <br />
                                 Physical Address</p>
                               <p class="body">
-                                <textarea name="Additional Names" cols="25" rows="5" id="Additional Names"></textarea>
+                                <textarea name="Additional Name" cols="25" rows="5" id="Additional Names"></textarea>
                                 <br />
                                 Please list additional name(s) here. </p>
                               <p class="body"><em>Thank you for your support!</em></p>
@@ -543,25 +549,26 @@ function MM_swapImage() { //v3.0
                           </tr>
 
                           <tr>
-                            <td><form id="Anonymous Donation" name="Anonymous Donation" method="post" action="anon.asp">
+                            <td><form id="Anonymous Donation" name="Anonymous Donation" method="post" action="mailer.php">
+                              <input type="hidden" name="type" value="Anonymous Donation"/>
                               <p class="bodybold"><a name="anon" id="anon"></a><span class="bluebold">Anonymous Donation</span> </p>
                               <p class="bodybold">
-                                <input type="checkbox" name="checkbox" value="Anonymous" />
+                                <input type="checkbox" name="anon" value="Anonymous" />
                                 I prefer to make my donation anonymously. Please do not list me in any of your materials. </p>
                               <p class="body">
-                                <input name="Your Name2" type="text" id="Your Name2" size="25" maxlength="150" />
+                                <input name="Your Name" type="text" id="Your Name2" size="25" maxlength="150" />
                                 <br />
                                 Your Name</p>
                               <p class="body">
-                                <input name="Phone Number2" type="text" id="Phone Number2" size="25" maxlength="150" />
+                                <input name="Phone Number" type="text" id="Phone Number2" size="25" maxlength="150" />
                                 <br />
                                 Phone Number</p>
                               <p class="body">
-                                <input name="Email Address2" type="text" id="Email Address2" size="25" maxlength="150" />
+                                <input name="Email Address" type="text" id="Email Address2" size="25" maxlength="150" />
                                 <br />
                                 Email Address </p>
                               <p class="body">
-                                <input name="Physical Address2" type="text" id="Physical Address2" size="25" maxlength="150" />
+                                <input name="Physical Address" type="text" id="Physical Address2" size="25" maxlength="150" />
                                 <br />
                                 Physical Address</p>
                               <p class="body"><em>Thank you for your support!</em></p>
