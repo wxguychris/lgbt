@@ -12,6 +12,8 @@
 
 /* Variables to be passed via hidden field to payment processor */
 require_once('internal/pmt_gateway_settings.php');
+// URL to redirect to once donation has been processed
+$payment['ReturnURL']='http://www.lgbtcenterofraleigh.com/thank-you.html';
 // URL to bounce to in the event they click cancel or there is an error
 $payment['xxxCancelURL']='http://www.lgbtcenterofraleigh.com/try-again.html';
 
