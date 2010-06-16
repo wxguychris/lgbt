@@ -378,19 +378,26 @@ function MM_swapImage() { //v3.0
                     <p class="body" style="color: red;">
                      There was an error with your submission, or you canceled the purchase before it was complete.</p>
                     <?php endif;?>
+                    <?php if (isset($_GET['success'])):?>
+                    <p class="body" style="color: green;">
+                        Thank you for your support! You will receive additional event information from us soon.
+                    </p><hr/>
+                    <?php endif;?>
                   <p class="body">Want to buy tickets to an LGBT Center event? You've reached the right place! Just select
                       the event you wish to purchase a ticket for, enter the number of tickets you wish to purchase, and
                       click <strong>Buy Now</strong> to complete your purchase.</p>
                   <p class="bodybold">Thanks for supporting the LGBT Center of Raleigh!</p>
                   <p class="body">
-                      <form action="ticket_procecss.php" method="POST">
-                          <label for="eventselect">Select Event: </label>
-                          <select name="eventId" id="eventselect">
-                              <option value="hightea">High Tea at the Umstead &mdash; July 11, 2010 2-4:30pm</option>
-                              <option value="comingout">Raleigh Is Coming Out! &mdash; {date here}</option>
-                          </select><br/>
-                          <label for="qty">Number of tickets: </label><input type="text" name="quantity" id="qty" size="5"/>
-                          <br/><input type="submit" value="Buy Now" class="bodybold"/>
+                      <form action="ticket_process.php" method="POST">
+                          <label for="eventselect" class="body">Select Event: </label>
+                          <select name="eventId" id="eventselect" class="body">
+                              <option value="hightea">High Tea at the Umstead &ndash; July 11, 2010 2-4:30pm &ndash; $50 per ticket</option>
+                              <option value="comingout" disabled>Raleigh Is Coming Out! &ndash; Tickets not yet available</option>
+                          </select><br/><br/>
+                          <label for="qty" class="body">Number of tickets: </label>
+                          <input type="text" name="quantity" id="qty" size="5" class="body" value="1"/>
+                          <br/><br/>
+                          <input type="submit" value="Buy Now" class="bodybold"/>
 
                       </form>
                   </p>
