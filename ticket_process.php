@@ -12,6 +12,8 @@
 
 /* Variables to be passed via hidden field to payment processor */
 require_once('internal/pmt_gateway_settings.php');
+// URL to redirect to once tickets have been purchased
+$payment['ReturnURL']='http://www.lgbtcenterofraleigh.com/buy_tickets.php?success';
 // URL to bounce to in the event they click cancel or there is an error
 $payment['xxxCancelURL']='http://www.lgbtcenterofraleigh.com/buy_tickets.php?error';
 
@@ -26,10 +28,10 @@ function error_redirect() {
 }
 
 /** Start application logic **/
-if (isset($_POST['tickets'])) {
+if (isset($_POST['eventId'])) {
     //tickets variable is set, somebody selected to purchase a ticket
     // TODO: make this dynamic with a database table
-    $eventId = preg_replace("/[^0-9A-Z]/i", "", $_POST['tickets']); //get the event id submitted
+    $eventId = preg_replace("/[^0-9A-Z]/i", "", $_POST['eventId']); //get the event id submitted
     $quantity = preg_replace("/[^0-9]/","",$_POST['quantity']); // get the quantity submitted
     if ($quantity <= 0) {
         error_redirect();
@@ -39,17 +41,16 @@ if (isset($_POST['tickets'])) {
             $item['title']="High Tea at the Umstead - July 11, 2010 2-4:30pm";
             $item['unit_price']=50.00;
             $item['qty']=$quantity;
-
             break;
-        case "comingout":
-            break;
+        /*case "comingout":
+            break;*/
         default:
             //no event selected, or something unexpected was entered
             header("Location: {$payment['xxxCancelURL']}");
     }
     /* create the product string */
     $payment['Products'] .= "|{$item['unit_price']}::{$item['qty']}::tickets::{$item['title']}::";
-
+}
         ?>
 
 
@@ -57,7 +58,7 @@ if (isset($_POST['tickets'])) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
-<title>LGBT Center of Raleigh - Contact Us</title>
+<title>LGBT Center of Raleigh - Buy Tickets</title>
 <style type="text/css">
 <!--
 body {
