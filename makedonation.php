@@ -11,12 +11,19 @@
  */
 
 /* Variables to be passed via hidden field to payment processor */
-$payment['GatewayID']='50414';
-$payment['language']='English';
-$payment['ReturnURL']='http://www.lgbtcenterofraleigh.com/thank-you.html';
+require_once('internal/pmt_gateway_settings.php');
+// URL to bounce to in the event they click cancel or there is an error
 $payment['xxxCancelURL']='http://www.lgbtcenterofraleigh.com/try-again.html';
-$payment['Products']='Price::Qty::Code::Description::Flags';
+
 /* Internal application variables */
+
+/**
+ * Function settings
+ */
+
+function error_redirect() {
+    header("Location: {$payment['xxxCancelURL']}");
+}
 
 /** Start application logic **/
 if (isset($_POST['Products'])) {
