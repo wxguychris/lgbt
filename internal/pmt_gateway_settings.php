@@ -5,8 +5,6 @@
  */
 $payment['GatewayID']='50414';
 $payment['language']='English';
-$payment['ReturnURL']='http://www.lgbtcenterofraleigh.com/thank-you.html';
-
 $payment['Products']='Price::Qty::Code::Description::Flags';
 
 ?>
