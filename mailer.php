@@ -6,6 +6,17 @@
 
 //require_once('common_mail.php');
 
+// check to see if any information is POSTed
+// or if the submission is empty
+// or if there aren't enough fields there
+$data = array_diff($_POST, array(''));
+
+if (empty($_POST) or !isset($_POST) or count($data)<=2) {
+   //nothing POSTed, redirect
+   header("Location: http://www.lgbtcenterofraleigh.com/");
+   exit;
+}
+
 //get the type of donation
 $type=addslashes($_POST['type']);
 
@@ -36,10 +47,23 @@ if (stripos($type,"Donation")!==false) {
 
 //start creating mailtext
 $mailtext="";
+//$mailtext=count($_POST);
 
 //loop through posted fields and add to mailtext
 foreach ($_POST as $name=>$value){
-    $mailtext.="$name: ". addslashes($value) . "\n";
+    if (empty($value)) {
+        //nothing in the field,
+        continue;
+    } else {
+        $mailtext.="$name: ". addslashes($value) . "\n";
+    }
+}
+
+//check to see if anything is listed in the mailtext
+if (empty($mailtext)) {
+    //no text, bounce user to main page
+    header("Location: http://www.lgbtcenterofraleigh.com/");
+    exit;
 }
 
 //add form submission time
